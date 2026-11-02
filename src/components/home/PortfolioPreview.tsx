@@ -20,7 +20,7 @@ export function PortfolioPreview({ showFilters = true, limit }: { showFilters?: 
           <SectionHeading
             eyebrow="Our Work"
             title="Projects That Deliver Real Business Impact"
-            description="From student admission CRMs to e-commerce, healthcare, and growth platforms — built with clarity, performance, and premium design."
+            description="From immigration CMS & CRM platforms to restaurant booking systems, e-commerce, and growth products — built with clarity, performance, and premium design."
           />
         </AnimatedSection>
 

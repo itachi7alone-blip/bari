@@ -23,6 +23,46 @@ export const portfolioCategories: Array<ProjectCategory | 'All'> = [
 
 export const projects: Project[] = [
   {
+    slug: 'capital-immigrant-canada-cms',
+    title: 'Capital Immigrant Canada CMS',
+    category: 'Web Applications',
+    shortDescription:
+      'Custom CMS for Capital Immigrant Canada to manage website pages, blogs, services, and lead content.',
+    description:
+      'A tailored content management system built for Capital Immigrant Canada, enabling the team to update website pages, publish immigration guides, manage service listings, banners, FAQs, and enquiry content without developer dependency — with secure admin access and SEO-friendly publishing workflows.',
+    technologies: ['React', 'Node.js', 'Express', 'PostgreSQL', 'JWT', 'Rich Text Editor'],
+    isSample: false,
+    accent: '#00BCE4',
+    features: [
+      'Page & section content editing',
+      'Blog / guide publishing workflow',
+      'Service & banner management',
+      'Media library uploads',
+      'SEO meta controls',
+      'Role-based admin access',
+    ],
+  },
+  {
+    slug: 'restrobook-menu-management',
+    title: 'RestroBook — Food Booking & Menu Management',
+    category: 'Web Applications',
+    shortDescription:
+      'Restaurant platform for online food booking, live menu management, orders, and table reservations.',
+    description:
+      'An end-to-end restaurant system that lets diners browse menus, place food orders, and reserve tables while restaurant owners manage categories, dishes, pricing, availability, and order status from a real-time operations dashboard — built for multi-outlet ready workflows.',
+    technologies: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Realtime Updates', 'Tailwind CSS'],
+    isSample: false,
+    accent: '#D6A64F',
+    features: [
+      'Online food ordering & booking',
+      'Live menu & category management',
+      'Item pricing & availability controls',
+      'Table reservation scheduling',
+      'Order tracking dashboard',
+      'Restaurant admin panel',
+    ],
+  },
+  {
     slug: 'capital-immigration-canada-crm',
     title: 'Capital Immigration Canada CRM',
     category: 'Web Applications',
@@ -32,7 +72,7 @@ export const projects: Project[] = [
       'A complete CRM platform built for Capital Immigration Canada to streamline student admissions. Counsellors can capture leads, track application stages, manage student documents, schedule follow-ups, and monitor conversion pipelines from enquiry to enrollment — all in one secure dashboard.',
     technologies: ['React', 'Node.js', 'Express', 'PostgreSQL', 'JWT', 'File Uploads'],
     isSample: false,
-    accent: '#00BCE4',
+    accent: '#1A8F9F',
     features: [
       'Student lead & enquiry management',
       'Admission pipeline & status tracking',
